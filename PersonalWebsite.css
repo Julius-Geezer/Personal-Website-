@@ -1,0 +1,94 @@
+* {
+	background-color: black;
+	color:  white;
+	font-family: monospace;
+}
+
+
+.Navbar{
+	display: flex;
+	flex-direction:  row;
+	position:  fixed;
+}
+
+
+.Portfolio {
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+.Blog {
+	margin-right:  780px;
+}
+.Title {
+	font-size:  20px;
+	display: flex;
+	flex-direction: column;
+}
+
+#Name {
+	font-size: 60px; 
+	font-family:  'fira code light';
+	margin-bottom:  30px;
+	margin-top:  140px;
+}
+
+#Name span {
+	position:	relative;
+	font-family: 'fira code light';
+}
+
+
+#Self {
+	margin-top:  0px;
+	margin-bottom: 30px;
+}
+
+
+.SVG-github {
+	width:  50px;
+	height:  50px;
+	background-color:  white;
+	border-radius: 11px;
+}
+
+.SVG-rss {
+	background-color: white;
+	border:  2.5px solid;
+	border-radius: 11px;
+	margin-left:  10px;
+}
+
+.Borderline {
+	width:  1500px;
+	height: 5px;
+	margin-top:  140Px;
+	border-bottom:  7px;
+	content: '';
+	display:  block;
+	background-color:  white;
+	animation:  loading 2s forwards ease;
+}
+
+@keyframes loading {
+	0% {
+		width:  0%;
+	}
+
+	100% {
+		width:  100%;
+	}
+}
+
+.AboutSection {
+	font-size:  15px;
+	font-family:  'fira code light';
+	font-weight: lighter;
+}
+
+#About  {
+	font-size: 30px;
+	font-family:  'fira code light';
+	font-weight:  lighter;
+}
+
